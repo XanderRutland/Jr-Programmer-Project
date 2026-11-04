@@ -12,6 +12,7 @@ public class MainManager : MonoBehaviour
     public Color TeamColor;
     
     public ResourceDatabase ResourceDatabase;
+
     
     private void Awake()
     {
@@ -63,4 +64,5 @@ public class MainManager : MonoBehaviour
             TeamColor = data.TeamColor;
         }
     }
+    
 }
